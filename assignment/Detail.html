@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail form</title>
+  </head>
+  <style>
+    body {
+      text-align: left;
+      margin-left: 200px;
+    }
+    input {
+      margin-left: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    #U {
+      padding: 10px;
+    }
+    #D {
+      padding: 10px;
+      margin-left: 0%;
+    }
+  </style>
+  <body>
+    <h1>Edit your Details</h1>
+    <form>
+      <label for="name">Username:</label>
+      <input type="text" id="name" value="" /><br /><br />
+      <label for="password">Password:</label>
+      <input type="password" id="password" value="" /><br /><br />
+      <label for="fname">full Name:</label>
+      <input type="text" id="fname" value="" /><br /><br />
+      <label type="email">Email:</label>
+      <input type="email" id="email" value="" /><br /><br />
+      <label for="pnumber">Phone Number:</label>
+      <input
+        type="text"
+        id="pnumber"
+        value=""
+        minlength="10"
+        maxlength="10"
+      /><br /><br />
+      <label for="add">Address:</label>
+      <input type="text" id="add" value="" /><br /><br />
+      <label for="hotel">Hotel Branch:</label>
+      <select name="hotel" id="hotel">
+        <option value="maharashtra">Maharashtra</option>
+        <option value="utterpradesh">Utterpradesh</option>
+        <option value="Delhi">Delhi</option>
+        <option value="punjab">Punjab</option></select
+      ><br /><br />
+      <input type="submit" id="U" value="Update" />
+      <input type="reset" id="D" value="Delete" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    table,
+    th,
+    td {
+      border: 2px solid black;
+      padding: 3px;
+      border-collapse: collapse;
+      background-color: lightgray;
+    }
+  </style>
+  <body>
+    <caption>
+      Registration form
+    </caption>
+    <form>
+      <table>
+        <tr>
+          <th>Enter your first name</th>
+          <td>
+            <input type="text" placeholder="enter your first name" value="" />
+          </td>
+        </tr>
+        <tr>
+          <th>Enter your last name</th>
+          <td>
+            <input type="text" value="" />
+          </td>
+        </tr>
+        <tr>
+          <th>Enter your Password</th>
+          <td>
+            <input type="password" value="" />
+          </td>
+        </tr>
+        <tr>
+          <th>ReEnter your password</th>
+          <td>
+            <input type="text" value="" />
+          </td>
+        </tr>
+        <tr>
+          <th>Enter your email</th>
+          <td>
+            <input type="email" value="" />
+          </td>
+        </tr>
+        <tr>
+          <th>Enter your mobile</th>
+          <td>
+            <input type="text" value="" minlength="10" maxlength="10" />
+          </td>
+        </tr>
+        <tr>
+          <th>Enter your address</th>
+          <td>
+            <textarea name="textarea" value="" rows="4" cols="5"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <th>select your gender</th>
+          <td>
+            <input type="radio" name="male" value="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="female" value="female" />
+            <label for="female">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <th>select your hobbies</th>
+          <td>
+            <input type="checkbox" name="hobby1" value="hobby1" />
+            <label for="hobby1">hobby1</label>
+            <input type="checkbox" name="hobby2" value="hobby2" />
+            <label for="hobby2">hobby2</label>
+            <input type="checkbox" name="hobby3" value="hobby3" />
+            <label for="hobby3">hobby3</label>
+          </td>
+        </tr>
+        <tr>
+          <th>Select your DOB</th>
+          <td>
+            <input type="date" name="date" value="date" />
+          </td>
+        </tr>
+        <tr>
+          <th>Select your Countery</th>
+          <td>
+            <select name="Countery" id="Countery">
+              <option value="INDIA">INDIA</option>
+              <option value="UAE">UAE</option>
+              <option value="USA">USA</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>Upload your pic</th>
+          <td>
+            <input type="file" value="file" name="file" />
+          </td>
+        </tr>
+        <tr>
+          <th colspan="2">
+            <input type="submit" value="Save My Data" />
+            <input type="reset" value="Reset Data" />
+          </th>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
