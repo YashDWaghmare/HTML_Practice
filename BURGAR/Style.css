@@ -1,0 +1,244 @@
+/* font */
+/* 
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ */
+ .q11 i{
+    font-size: 30px;
+
+ }
+.q11 span{
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: rgb(252, 125, 79);
+}
+.Q1{
+        display: flex;
+        justify-content: space-around;
+        padding: 15px;
+        position: sticky;
+        top: 0%;
+        height: auto;
+        width: 100%;
+        background-color: white;
+        box-sizing:border-box;
+    }
+
+
+ li a{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    word-spacing: 35px;
+    font-size: 22px;
+
+}
+li a:hover{
+    color: rgb(252, 125, 79);
+}
+li{
+    list-style-type: none;
+    word-spacing: 35px;
+}
+
+ul{
+    display: flex;
+    
+}
+
+
+.Q2{
+    display: flex;
+    margin: 45px;
+    box-sizing: border-box;
+    color:rgb(252, 125, 79);
+    line-height: 29px;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.Q2 p{
+    line-height :30px;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+}
+.q2 h1{
+    color: black;
+    font-size: 70px;
+    line-height: 20px;
+}
+.q2{
+    display: block;
+    text-align: left;
+    margin-left:15px ;
+    width: 100%;
+}
+
+.q2 a{
+    text-decoration: none;
+    background-color: rgb(252, 125, 79); 
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    width: 80px; 
+    font-size: large;
+    line-height: 55px;
+    font-size: 20px;
+}
+
+.q2 p{
+    text-align: justify;
+    font-size: 20px;    
+}
+
+
+.Q3{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content:space-around;
+    background-image: url("frame4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+
+}
+
+.q3 a{
+    text-decoration: none;
+    background-color: rgb(252, 125, 79); 
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    width: 25px; 
+    line-height: 183px;
+    font-size: 20px;
+}
+
+.q3 p{
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 5px;
+}
+.q3 h1{
+    font-size: 50px;
+}
+.Q4{
+    margin:15px;
+    justify-content: center;
+    text-align: center;
+
+}
+.Q4 p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.Q5 {
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+}
+
+.q5 p{
+    font-size: 20px;
+    text-align: justify;
+}
+.q5{
+    border-radius: 20px;
+    text-align: justify;
+    padding: 16px;
+    margin: 17px;
+    width: 255px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  
+}
+.q5 img{
+    border-radius: 15px;
+}
+
+.Q6{
+    margin:15px;
+    justify-content: center;
+    text-align: center;
+
+}
+.Q6 h1{
+    font-size: 50px;
+}
+.Q6 p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.Q7{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.q7{
+    padding: 25px;
+}
+
+.q7 h1{
+    text-align: center;
+}
+.Q8{
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 25px;
+}
+.q8{
+    padding: 35px;
+}
+.q8 h1{
+    font-family: "Pacifico", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 25px;
+
+}
+.q8 p{
+    font-size: 20px; 
+}
+
+.Q9{
+    background-color: black;
+    color: gray;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 25px;
+    margin: 100px 0px 0px 0px;
+    width: 100%;
+}
+.Q9 h1{
+    font-family: "Pacifico", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+.Q9 p{
+    line-height: 50px;
+}
+body{
+    overflow-x: hidden;
+}
