@@ -1,0 +1,197 @@
+body{
+    margin: auto;
+    width: 80%;
+    background-color: beige;
+}
+
+.header{
+    display: flex;
+    background-color: black;    
+}
+.header1{
+    flex:8%;
+}
+.header2{
+    padding: 20px;
+    line-height: 50px;
+    /* background-color: black; */
+    color: white;
+    flex:80%;
+}
+.header2 a {
+    color: white;
+    text-decoration: none;
+}
+.header2 a :hover{
+    text-decoration: underline;
+}
+
+.state{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.state a{
+    background-color: #0366d6;
+    border-radius: 5px;
+    margin: 4px;
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+}
+.main{
+    display: flex;
+   column-gap: 15px;
+    
+}
+
+.nav ul{
+    list-style-image: url('BlockContentBullets.png');
+}
+.nav a{
+    text-decoration: none;
+    line-height: 25px;
+    color: #0366d6;
+    font-size: 18px;
+}
+.nav h2{
+    background-color: #0366d6;
+    color: white;
+    padding: 5px;
+}
+.content{
+    display: flex;
+    column-gap: 15px;
+    
+}
+input[type=text]{
+    width: 80%;
+    padding: 10px;
+}
+.btn i{
+   text-align: center;
+   margin: auto;
+   padding: 10px;
+   background-color: #0366d6;
+   color: white;
+}
+.WhatsApp {
+    text-align: center;
+}
+.WhatsApp h2{
+    color: white;
+    background-color: #0366d6;
+    padding: 10px;
+    margin-top: 0;
+}
+.WhatsApp a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.box{
+    border: 2px solid black;
+    box-sizing: border-box;
+    height: 350px;
+    margin-top: 12px;
+}
+.box h2{
+    text-align: center;
+    background-color: #0366d6;
+    color: white;
+    margin-top: 0; 
+    padding: 10px;
+}
+
+.refer{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    box-sizing: border-box;
+}
+.refer a{
+    text-decoration: none;
+}
+.refer li{
+    line-height: 20px;
+}
+.view{
+    text-align: center;
+}
+.view a{
+    text-decoration: none;
+    color: white;
+    background-color: hsl(34, 100%, 62%);
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.link{
+    flex: none;
+    margin: 25px;
+    text-align: center ;
+    font-size: 15px;
+}
+.link a{
+    text-decoration: none;
+    color: red;
+    font-size: 25px ;
+}
+.block{
+    display: flex;
+    width: 100%;
+    column-gap: 10px;
+}
+.block1{
+    padding: 5px;
+    background-color: #107986;
+    color: white;
+    
+}
+.block2{
+    padding: 5px;
+    background-color:#103ccf ;
+    color: white;
+}
+.block3{
+    padding: 5px;
+    background-color:#fb5e03 ;
+    color: white;
+}
+.block4{
+    padding: 5px;
+    background-color:#b2670e ;
+    color: white;
+}
+.block5{
+    padding: 5px;
+    background-color:#868a08 ;
+    color: white;
+}
+.block6{
+    padding: 5px;
+    background-color:#0080ff ;
+    color: white;
+}
+.block7{
+    padding: 5px;
+    background-color:#0585b6 ;
+    color: white;
+}
+.block8{
+    padding: 5px;
+    background-color:#bb0339 ;
+    color: white;
+}
+.block9{
+    padding: 5px;
+    background-color:#b542df ;
+    color: white;
+}
+
+.block1,.block2,.block3,.block4,.block5,.block6,.block7,.block8,.block9{
+    margin: 5px 0px;
+    height: auto;
+}
